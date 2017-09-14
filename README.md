@@ -1,27 +1,31 @@
 BC wallet application (bchistory)
 ---------------------------------
 
-Prerequisities:
+### Prerequisities:
 
 	npm i -g vue-cli
 
----------------------------------
-4 stages:
+# Stages:
 
 	cd stageX
 	npm install
 	npm run dev
 
 ## stage0:
-Basic initialization with webpack temlate with no added code (npm init webpack bchistory)
+* Basic initialization with webpack temlate with no added code
+
+* `npm init webpack bchistory`
 
 ## stage1:
-Implemented basic data rendering in table
+* Implemented basic data rendering in table
 
 ## stage2:
-Implemented data modification (withdraw + deposit)
+* Implemented data modification (withdraw + deposit)
 
 ## stage3:
-Withdraw + Deposit as components
+* Withdraw + Deposit as components
+
+## stage4:
+* Bootstrap styling
 
 ---------------------------------
