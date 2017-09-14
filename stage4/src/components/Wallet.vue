@@ -1,12 +1,14 @@
 <template>
-  <div>
+  <div class="container">
       <!-- <b-table hover :items="records"></b-table> -->
       <deposit v-on:deposit="deposit"></deposit>
       <withdraw v-on:withdraw="withdraw"></withdraw>
-      <table>
+      <table class="table table-hover">
         <thead>
-          <th>Amount</th>
-          <th>Type</th>
+          <tr>
+            <th>Amount</th>
+            <th>Type</th>
+          </tr>
         </thead>
         <tbody>
           <tr v-for="record in records" :key="record.id">
@@ -83,5 +85,14 @@ export default {
   .total, .balance{
     text-align: left;
     font-weight: bold
+  }
+
+  .label {
+    color: #000000
+  }
+
+  .container {
+    width: 35%;
+    min-width: 500px;
   }
 </style>
