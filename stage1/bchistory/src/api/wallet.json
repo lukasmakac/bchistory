@@ -1,0 +1,16 @@
+{
+    "records": [
+        {
+            "amount": 10,
+            "date": 0,
+            "type": "withdraw"
+        },
+        {
+            "amount": 100,
+            "date": 0,
+            "type": "deposit"
+        }
+    ],
+
+    "balance": 200
+}

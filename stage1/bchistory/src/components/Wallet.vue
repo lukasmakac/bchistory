@@ -29,7 +29,7 @@ export default {
   },
   computed: {
     sum () {
-      return 0
+      return
     }
   },
 
