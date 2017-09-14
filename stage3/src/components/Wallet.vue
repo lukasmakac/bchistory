@@ -1,6 +1,8 @@
 <template>
   <div>
       <!-- <b-table hover :items="records"></b-table> -->
+      <deposit v-on:deposit="deposit"></deposit>
+      <withdraw v-on:withdraw="withdraw"></withdraw>
       <table>
         <thead>
           <th>Amount</th>
@@ -19,8 +21,6 @@
       <div class="balance">
         <span class="label">Balance:  {{ balance }}</span>
       </div>
-      <deposit v-on:deposit="deposit"></deposit>
-      <withdraw v-on:withdraw="withdraw"></withdraw>
   </div>
 </template>
 
